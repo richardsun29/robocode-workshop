@@ -2,27 +2,40 @@
 
 # Contents
 - [Getting Started](#getting-started)
+  - Setup
+  - Running Robocode
 - [Using Robocode](#using-robocode)
 - [Further Resources](#further-resources)
 
 
 # Getting Started
 
-Clone this repository:
+## Setup
+
+Robocode requires at least Java 5 (Java 1.5.0) or newer to run. If you don't already have Java, you can download it from [java.com](http://java.com).
+
+Download Robocode [here](http://sourceforge.net/projects/robocode).
+
+Install Robocode by running this .jar file. If you can't run it by clicking on the file's icon, open Command Prompt or a terminal and run
 ```
-git clone https://github.com/richardsun29/robocode-workshop.git
+java -jar robocode-1.9.2.4-setup.jar
 ```
 
-You can also [download this repo as a zip file](https://github.com/richardsun29/robocode-workshop/archive/master.zip).
+## Running Robocode
 
-## Windows
+### Windows
 
-## Mac
+Run Robocode from the Start Menu. 
 
-## Linux
+If there is no Start Menu shortcut, navigate to where you installed Robocode (`C:\robocode` by default) and run the `robocode.bat` file.
 
-Open a terminal, navigate to this repo, and run 
+### Mac OSX
+
+### Linux
+
+Open a terminal and run
 ```
+cd ~/robocode/ # directory where you installed Robocode (~/robocode/ by default)
 ./robocode.sh
 ```
 

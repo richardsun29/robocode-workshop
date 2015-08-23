@@ -9,7 +9,6 @@
 # Getting Started
 
 Clone this repository:
-
 ```
 git clone https://github.com/richardsun29/robocode-workshop.git
 ```
@@ -22,6 +21,10 @@ You can also [download this repo as a zip file](https://github.com/richardsun29/
 
 ## Linux
 
+Open a terminal, navigate to this repo, and run 
+```
+./robocode.sh
+```
 
 # Using Robocode
 
@@ -38,4 +41,4 @@ Here are some helpful resources if you would like to continue playing with Roboc
   - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html). Various game constants and utility functions.
 - [Robots created by other people](http://robowiki.net/wiki/RoboRumble/Participants)
 - [Genetic Algorithm and Robocode](https://www.youtube.com/watch?v=Hp6bhARBGc4). A video showing how a Robocode robot evolved using a genetic algorithm.
-- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?sort_by=&show_abstract=true&show_all=&search_flag=&contentarea_by=Java+technology&search_by=robocode&product_by=-1&topic_by=-1&industry_by=-1&type_by=All+Types&ibm-search=Search)
+- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)

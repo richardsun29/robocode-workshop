@@ -1,2 +1,5 @@
+config/
 *.swp
 *.class
+*.data
+*.database

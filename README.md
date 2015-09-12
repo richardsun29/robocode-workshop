@@ -51,7 +51,7 @@ cd ~/robocode/ # directory where you installed Robocode (~/robocode/ by default)
 
 ---
 
-If everything went well, a program with this icon <img src="robocode.ico" width="28"> should be running.
+If everything went well, a program with this icon <img src="robocode/robocode.ico" width="28"> should be running.
 
 If you couldn't get Robocode to run, [this page](http://robowiki.net/wiki/Robocode/System_Requirements#Installation_and_configuration) has some troubleshooting information, or we can help you get it set up during the workshop.
 
@@ -93,6 +93,8 @@ Here are some helpful resources if you would like to continue playing with Roboc
   - [Robot](http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html). The class of robot we used today.
   - [AdvancedRobot](http://robocode.sourceforge.net/docs/robocode/robocode/AdvancedRobot.html). This type of robot has a more complex interface that allows for more control over the robot.
   - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html). Various game constants and utility functions.
+
+- [RoboWiki](http://robowiki.net). The RoboCode Wiki has strategy guides, tutorials, and sample robots.
 - [Robots created by other people](http://robowiki.net/wiki/RoboRumble/Participants)
 - [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
 - [Walkthrough](http://robowiki.net/wiki/Robocode/Eclipse) to use [Eclipse](http://www.eclipse.org) as an IDE for Robocode.

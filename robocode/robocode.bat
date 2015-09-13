@@ -6,4 +6,7 @@
 @REM http://robocode.sourceforge.net/license/epl-v10.html
 @REM
 
+set olddir=%cd%
+cd %~dp0
 java -Xmx512M -cp libs/robocode.jar robocode.Robocode %*
+cd %olddir%

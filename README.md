@@ -14,46 +14,48 @@
 
 ## Setup
 
-Robocode requires at least Java 5 (Java 1.5.0) or newer to run. If you don't already have Java, you can download it from [java.com](http://java.com).
+Robocode requires at least Java 5 (Java 1.5.0) or newer to run. If you don't already have Java, you can download it from [java.com/en/download](http://java.com/en/download).
 
-Download Robocode [here](http://sourceforge.net/projects/robocode).
-
-Install Robocode by running this .jar file. If you can't run it by clicking on the file's icon, open Command Prompt or a terminal and run
-```
-java -jar robocode-1.9.2.4-setup.jar
-```
+Clone this repository (`git clone https://github.com/richardsun29/robocode-workshop.git`) or [download it as a zip file](https://github.com/richardsun29/robocode-workshop/archive/master.zip).
 
 ## Running Robocode
 
 ### Windows
 
-Run Robocode from the Start Menu. 
+Navigate to the `robocode/` folder and run the `robocode.bat` file.
 
-If there is no Start Menu shortcut, navigate to where you installed Robocode (`C:\robocode` by default) and run the `robocode.bat` file.
+If that didn't work, open Command Prompt and run
+```bat
+cd path\to\robocode-workshop &:: insert this repo's directory
+robocode\robocode.bat
+```
 
-### Mac OSX
+### Mac
 
 > **TODO: ask Carter to confirm/edit**
 
-Open a terminal and run
+Navigate to the `robocode/` folder and run the `robocode.command` file.
+
+If that didn't work, open Terminal and run
 ```bash
-cd ~/robocode/ # directory where you installed Robocode (~/robocode/ by default)
-./robocode.sh
+cd path/to/robocode-workshop/ # insert this repo's directory
+./robocode/robocode.command
 ```
 
 ### Linux
 
 Open a terminal and run
 ```bash
-cd ~/robocode/ # directory where you installed Robocode (~/robocode/ by default)
-./robocode.sh
+cd path/to/robocode-workshop/ # insert this repo's directory
+./robocode/robocode.sh
 ```
 
 ---
 
 If everything went well, a program with this icon <img src="robocode/robocode.ico" width="28"> should be running.
 
-If you couldn't get Robocode to run, [this page](http://robowiki.net/wiki/Robocode/System_Requirements#Installation_and_configuration) has some troubleshooting information, or we can help you get it set up during the workshop.
+If Robocode did not run, we can help you get it set up during the workshop.
+[This page](http://robowiki.net/wiki/Robocode/System_Requirements#Installation_and_configuration) has some troubleshooting information.
 
 # Using Robocode
 
@@ -88,14 +90,16 @@ Click `Start Battle` to begin the battle.
 
 Here are some helpful resources if you would like to continue playing with Robocode.
 
-- Robocode homepage: [http://robocode.sourceforge.net](http://robocode.sourceforge.net)
+- Robocode homepage: [robocode.sourceforge.net](http://robocode.sourceforge.net)
 - [Robocode documentation](http://robocode.sourceforge.net/docs/robocode). Here are some of the most useful classes:
-  - [Robot](http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html). The class of robot we used today.
-  - [AdvancedRobot](http://robocode.sourceforge.net/docs/robocode/robocode/AdvancedRobot.html). This type of robot has a more complex interface that allows for more control over the robot.
+    - [AdvancedRobot](http://robocode.sourceforge.net/docs/robocode/robocode/AdvancedRobot.html). The class of robot we used in the workshop.
+    - [Robot](http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html). More methods you can use in your robot
   - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html). Various game constants and utility functions.
 
 - [RoboWiki](http://robowiki.net). The RoboCode Wiki has strategy guides, tutorials, and sample robots.
-- [Robots created by other people](http://robowiki.net/wiki/RoboRumble/Participants)
+- Robots created by other people:
+  - [Robocode Repository](http://robocoderepository.com/Categories.jsp)
+  - [RoboRumble Participants](http://robowiki.net/wiki/RoboRumble/Participants)
 - [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
 - [Walkthrough](http://robowiki.net/wiki/Robocode/Eclipse) to use [Eclipse](http://www.eclipse.org) as an IDE for Robocode.
 - [Genetic Algorithm and Robocode](https://www.youtube.com/watch?v=Hp6bhARBGc4). A video showing how a Robocode robot evolved using a genetic algorithm.

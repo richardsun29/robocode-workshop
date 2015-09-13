@@ -7,7 +7,11 @@ package acmai;
 import robocode.*;
 import java.awt.Color;
 
-public class TimDog extends AdvancedRobot {
+/*
+ * Finalized robot code presented in the ACM-AI workshop
+ */
+
+public class Completed extends AdvancedRobot {
 	
 	static int direction	= 1;   // 1 is forward, -1 is backward
 	static double epEnergy	= 100; // enemy's previous energy
@@ -50,7 +54,7 @@ public class TimDog extends AdvancedRobot {
 			else
 				direction = -1;
 				
-			double distance = e.getDistance() * Math.random() + 30;
+			double distance = e.getDistance() * Math.random() + getWidth();
 			if(e.getDistance() < 200) // confuse other robot's targeting even more
 				distance = -distance;
 			

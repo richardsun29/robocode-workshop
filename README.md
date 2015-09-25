@@ -102,4 +102,6 @@ Here are some helpful resources if you would like to continue playing with Roboc
   - [RoboRumble Participants](http://robowiki.net/wiki/RoboRumble/Participants)
 - [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
 - [Walkthrough](http://robowiki.net/wiki/Robocode/Eclipse) to use [Eclipse](http://www.eclipse.org) as an IDE for Robocode.
+
+- [Machine Learning and Robocode](https://www.youtube.com/watch?v=Ru9W-9CxdQ8). A video showing how a Robocode robot evolved using machine learning.
 - [Genetic Algorithm and Robocode](https://www.youtube.com/watch?v=Hp6bhARBGc4). A video showing how a Robocode robot evolved using a genetic algorithm.

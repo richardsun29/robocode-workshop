@@ -22,24 +22,22 @@ Clone this repository (`git clone https://github.com/richardsun29/robocode-works
 
 ### Windows
 
-Navigate to the `robocode/` folder and run the `robocode.bat` file.
+Navigate to this repo's folder and run the `robocode.bat` file.
 
 If that didn't work, open Command Prompt and run
 ```bat
-cd path\to\robocode-workshop &:: insert this repo's directory
-robocode\robocode.bat
+cd path\to\robocode-workshop  &:: insert this repo's directory
+.\robocode.bat
 ```
 
 ### Mac
 
-> **TODO: ask Carter to confirm/edit**
-
-Navigate to the `robocode/` folder and run the `robocode.command` file.
+Navigate to this repo's folder and run the `robocode.command` file.
 
 If that didn't work, open Terminal and run
 ```bash
 cd path/to/robocode-workshop/ # insert this repo's directory
-./robocode/robocode.command
+./robocode.command
 ```
 
 ### Linux
@@ -47,7 +45,7 @@ cd path/to/robocode-workshop/ # insert this repo's directory
 Open a terminal and run
 ```bash
 cd path/to/robocode-workshop/ # insert this repo's directory
-./robocode/robocode.sh
+./robocode.sh
 ```
 
 ---
@@ -59,7 +57,7 @@ If Robocode did not run, we can help you get it set up during the workshop.
 
 # Using Robocode
 
-We will walk through this part during the workshop, but if you want to play around:
+> We will walk through this part during the workshop, but if you want to play around:
 
 ### Source Editor
 

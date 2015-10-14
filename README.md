@@ -95,8 +95,8 @@ Here are some helpful resources if you would like to continue playing with Roboc
   - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html)
 
 - Strategy guides:
-- [RoboWiki](http://robowiki.net)
-- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
+	- [RoboWiki](http://robowiki.net)
+	- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
 
 - Robots created by other people:
   - [Robocode Repository](http://robocoderepository.com/Categories.jsp)

@@ -50,14 +50,13 @@ cd path/to/robocode-workshop/ # insert this repo's directory
 
 ---
 
-If everything went well, a program with this icon <img src="robocode/robocode.ico" width="28"> should be running.
+If everything went well, a program with this icon <img src="robocode.ico" width="28"> should be running.
 
 If Robocode did not run, we can help you get it set up during the workshop.
 [This page](http://robowiki.net/wiki/Robocode/System_Requirements#Installation_and_configuration) has some troubleshooting information.
 
 # Using Robocode
 
-> We will walk through this part during the workshop, but if you want to play around:
 
 ### Source Editor
 
@@ -88,18 +87,21 @@ Click `Start Battle` to begin the battle.
 
 Here are some helpful resources if you would like to continue playing with Robocode.
 
-- Robocode homepage: [robocode.sourceforge.net](http://robocode.sourceforge.net)
-- [Robocode documentation](http://robocode.sourceforge.net/docs/robocode). Here are some of the most useful classes:
-    - [AdvancedRobot](http://robocode.sourceforge.net/docs/robocode/robocode/AdvancedRobot.html). The class of robot we used in the workshop.
-    - [Robot](http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html). More methods you can use in your robot
-  - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html). Various game constants and utility functions.
+- Robocode homepage: [robocode.sourceforge.net](http://robocode.sourceforge.net). You can download the full version of Robocode here.
 
-- [RoboWiki](http://robowiki.net). The RoboCode Wiki has strategy guides, tutorials, and sample robots.
+- [Robocode documentation](http://robocode.sourceforge.net/docs/robocode). Here are some of the most useful classes:
+  - [AdvancedRobot](http://robocode.sourceforge.net/docs/robocode/robocode/AdvancedRobot.html)
+  - [Robot](http://robocode.sourceforge.net/docs/robocode/robocode/Robot.html)
+  - [Rules](http://robocode.sourceforge.net/docs/robocode/robocode/Rules.html)
+
+- Strategy guides:
+- [RoboWiki](http://robowiki.net)
+- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
+
 - Robots created by other people:
   - [Robocode Repository](http://robocoderepository.com/Categories.jsp)
   - [RoboRumble Participants](http://robowiki.net/wiki/RoboRumble/Participants)
-- [Some articles on Robocode strategy](http://www.ibm.com/developerworks/java/library/?contentarea_by=Java+technology&search_by=robocode)
-- [Walkthrough](http://robowiki.net/wiki/Robocode/Eclipse) to use [Eclipse](http://www.eclipse.org) as an IDE for Robocode.
+
 
 - [Machine Learning and Robocode](https://www.youtube.com/watch?v=Ru9W-9CxdQ8). A video showing how a Robocode robot evolved using machine learning.
 - [Genetic Algorithm and Robocode](https://www.youtube.com/watch?v=Hp6bhARBGc4). A video showing how a Robocode robot evolved using a genetic algorithm.
